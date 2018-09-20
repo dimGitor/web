@@ -1,0 +1,21 @@
+
+#P1{
+    font-size: 25px;
+    color: red;
+    font-weight: lighter;
+    font-family: 'Times New Roman';
+}
+
+#P2{
+    font-size: 20px;
+    color: purple;
+    font-family: 'Arial';
+    font-weight: bolder;
+}
+
+#P3{
+    font-size: 15px;
+    color: darkblue;
+    font-family: 'Georgia';
+    font-weight: lighter;
+}
