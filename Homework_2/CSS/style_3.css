@@ -1,0 +1,27 @@
+html {
+    font-family: "Times New Roman", serif;
+}
+
+section {
+    border: 1px black solid;
+    display: flex;
+    background-color: blue;
+    flex-flow: wrap;
+    padding: 20px;
+
+}
+
+section_1 {
+    border: 1px black solid;
+    display: flex;
+    padding: 20px;
+    background-color: yellow;
+    flex-flow: wrap;
+}
+
+section_2 {
+    border: 1px black solid;
+    display: flex;
+    background-color: red;
+    padding: 20px;
+}
