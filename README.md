@@ -1,2 +1,2 @@
 # web
-This repository stores the web application for courses.
+This repository stores my homeworks for courses.
