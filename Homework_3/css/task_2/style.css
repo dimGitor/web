@@ -1,0 +1,4 @@
+/**/
+@import url(screen_style.css) screen and (max-width: 1200px);
+@import url(ipad_style.css) screen and (min-width: 768px) and (max-width: 1199px);
+@import url(iphone_style.css) screen and (max-width: 767px);

@@ -1,0 +1,2 @@
+@import url(screen_style.css) screen and (min-width: 321px);
+@import url(phone_style.css) screen and (max-width: 320px);

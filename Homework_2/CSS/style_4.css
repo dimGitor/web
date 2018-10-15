@@ -13,16 +13,18 @@ header {
     display: flex;
     justify-content: space-around;
     position: relative;
+    height: 20vh;
 }
 
 header logo {
     border: 1px solid deepskyblue;
-    border-radius: 20px;
+    border-radius: 5vmin;
+    height: 15vh;
 }
 
 header search-input {
     float: right;
-    margin-top: 20px;
+    margin-top: 1vh;
     width: 40%;
 }
 
@@ -33,20 +35,21 @@ header search-input input{
 }
 
 header label {
-    font: 3vmax "Times New Roman";
+    font: 5vmin "Times New Roman";
 }
 
 subHeader {
     background-color: white;
     display: flex;
     justify-content: space-around;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
 }
 
 subheader block {
     background-color: darkcyan;
-    font: 3vw "Times New Roman";
+    font: 3vmin "Times New Roman";
+    height: 5vmin;
 }
 
 
@@ -67,9 +70,9 @@ leftBlock {
 leftBlock block {
     display: flex;
     background-color: darkcyan;
-    font: 3vw "Times New Roman";
+    font: 4vh "Times New Roman";
     justify-content: left;
-    margin-top: 15%;
+    margin-top: 5vh;
 }
 
 images {
@@ -77,12 +80,23 @@ images {
     align-items: center;
     flex-wrap: wrap;
     justify-content: center;
+    max-width: 1600px;
+    min-width: 10px;
+    min-height: 30px;
+    max-height: 900px;
+    height: 10vh;
+    width: 100%;
 }
 
+images img {
+    height: 30vh;
+    width: 20vmax;
+}
 
 footer {
+    margin-top: 5.5vh;
     display: flex;
     background-color: darkcyan;
-    font: 4vw bold;
+    font: 9vh bold;
     justify-content: center;
 }
